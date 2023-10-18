@@ -1,7 +1,15 @@
-import 'package:atrak/src/repository/repository.dart';
+// import 'package:atrak/src/repository/repository.dart';
+// import 'package:flutter/services.dart';
+
+// import 'package:atrak/src/main.dart' as app;
+// import 'package:sqflite/sqflite.dart';
+
+
+
+import 'repository/repository.dart';
 import 'package:flutter/services.dart';
 
-import 'package:atrak/src/main.dart' as app;
+import 'main.dart' as app;
 import 'package:sqflite/sqflite.dart';
 
 void main() async {

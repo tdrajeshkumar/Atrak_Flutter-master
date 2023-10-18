@@ -1,7 +1,15 @@
-import 'package:atrak/src/home/home_bloc.dart';
-import 'package:atrak/src/home/widgets/item_home_section_widget.dart';
-import 'package:atrak/src/localization.dart';
-import 'package:atrak/src/utils/theme.dart';
+// import 'package:atrak/src/home/home_bloc.dart';
+// import 'package:atrak/src/home/widgets/item_home_section_widget.dart';
+// import 'package:atrak/src/localization.dart';
+// import 'package:atrak/src/utils/theme.dart';
+// import 'package:flutter/material.dart';
+
+
+
+import 'home/home_bloc.dart';
+import 'home/widgets/item_home_section_widget.dart';
+import 'localization.dart';
+import 'utils/theme.dart';
 import 'package:flutter/material.dart';
 
 class PageHomeScreen extends StatefulWidget {

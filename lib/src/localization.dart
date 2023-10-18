@@ -1,8 +1,13 @@
 import 'dart:async';
 
-import 'package:atrak/src/localizations/messages_all.dart';
+// import 'package:atrak/src/localizations/messages_all.dart';
+// import 'package:flutter/widgets.dart';
+// import 'package:intl/intl.dart';
+
+
+import 'localizations/messages_all.dart';
 import 'package:flutter/widgets.dart';
-import 'package:intl/intl.dart';
+//import 'package:intl/intl.dart';
 
 class AtrakLocalizations {
   AtrakLocalizations(this.locale);

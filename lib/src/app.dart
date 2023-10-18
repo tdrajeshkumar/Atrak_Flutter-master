@@ -1,14 +1,30 @@
-import 'package:atrak/src/authentication/authentication.dart';
-import 'package:atrak/src/bloc_localization.dart';
-import 'package:atrak/src/home/home_screen.dart';
-import 'package:atrak/src/localization.dart';
-import 'package:atrak/src/login/login.dart';
-import 'package:atrak/src/repository/api_repository.dart';
-import 'package:atrak/src/splash/SplashScreen.dart';
-import 'package:atrak/src/utils/theme.dart';
-import 'package:atrak/src/widgets/loading_spinner.dart';
+// import 'package:atrak/src/authentication/authentication.dart';
+// import 'package:atrak/src/bloc_localization.dart';
+// import 'package:atrak/src/home/home_screen.dart';
+// import 'package:atrak/src/localization.dart';
+// import 'package:atrak/src/login/login.dart';
+// import 'package:atrak/src/repository/api_repository.dart';
+// import 'package:atrak/src/splash/SplashScreen.dart';
+// import 'package:atrak/src/utils/theme.dart';
+// import 'package:atrak/src/widgets/loading_spinner.dart';
+// import 'package:flutter/material.dart';
+// import 'package:flutter_bloc/flutter_bloc.dart';
+
+
+import 'authentication/authentication.dart';
+import 'bloc_localization.dart';
+import 'home/home_screen.dart';
+import 'localization.dart';
+import 'login/login.dart';
+import 'repository/api_repository.dart';
+ import 'splash/SplashScreen.dart';
+import 'utils/theme.dart';
+import 'widgets/loading_spinner.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+
+
 
 class App extends StatefulWidget {
   final ApiRepository _repository;

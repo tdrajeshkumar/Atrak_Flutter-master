@@ -1,4 +1,7 @@
-import 'package:atrak/src/home/attendance/attendance.dart';
+// import 'package:atrak/src/home/attendance/attendance.dart';
+// import 'package:bloc/bloc.dart';
+
+import 'home/attendance/attendance.dart';
 import 'package:bloc/bloc.dart';
 
 class AttendanceBloc extends Bloc<AttendanceEvent, AttendanceState> {

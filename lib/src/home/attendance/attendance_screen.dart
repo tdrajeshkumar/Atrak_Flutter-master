@@ -1,20 +1,39 @@
-import 'package:atrak/src/home/attendance/attendance.dart';
-import 'package:atrak/src/home/attendance/comp_off/comp_off_screen.dart';
-import 'package:atrak/src/home/attendance/dashboard/dashboard.dart';
-import 'package:atrak/src/home/attendance/holiday_list/holiday_list.dart';
-import 'package:atrak/src/home/attendance/leaves/leaves.dart';
-import 'package:atrak/src/home/attendance/manual_punch/manual_punch_screen.dart';
-import 'package:atrak/src/home/attendance/my_approvals/my_approvals.dart';
-import 'package:atrak/src/home/attendance/my_attendance/my_attendance.dart';
-import 'package:atrak/src/home/attendance/on_duty/on_duty_screen.dart';
-import 'package:atrak/src/home/attendance/permission/permission.dart';
-import 'package:atrak/src/home/attendance/profile/profile_screen.dart';
-import 'package:atrak/src/home/attendance/shift_change/shift_change.dart';
-import 'package:atrak/src/home/attendance/team_attendance/team_attendance_screen.dart';
-import 'package:atrak/src/home/home_bloc.dart';
-import 'package:atrak/src/widgets/page_transition.dart';
+// import 'package:atrak/src/home/attendance/attendance.dart';
+// import 'package:atrak/src/home/attendance/comp_off/comp_off_screen.dart';
+// import 'package:atrak/src/home/attendance/dashboard/dashboard.dart';
+// import 'package:atrak/src/home/attendance/holiday_list/holiday_list.dart';
+// import 'package:atrak/src/home/attendance/leaves/leaves.dart';
+// import 'package:atrak/src/home/attendance/manual_punch/manual_punch_screen.dart';
+// import 'package:atrak/src/home/attendance/my_approvals/my_approvals.dart';
+// import 'package:atrak/src/home/attendance/my_attendance/my_attendance.dart';
+// import 'package:atrak/src/home/attendance/on_duty/on_duty_screen.dart';
+// import 'package:atrak/src/home/attendance/permission/permission.dart';
+// import 'package:atrak/src/home/attendance/profile/profile_screen.dart';
+// import 'package:atrak/src/home/attendance/shift_change/shift_change.dart';
+// import 'package:atrak/src/home/attendance/team_attendance/team_attendance_screen.dart';
+// import 'package:atrak/src/home/home_bloc.dart';
+// import 'package:atrak/src/widgets/page_transition.dart';
+// import 'package:flutter/material.dart';
+// import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'home/attendance/attendance.dart';
+import 'home/attendance/comp_off/comp_off_screen.dart';
+import 'home/attendance/dashboard/dashboard.dart';
+import 'home/attendance/holiday_list/holiday_list.dart';
+import 'home/attendance/leaves/leaves.dart';
+import 'home/attendance/manual_punch/manual_punch_screen.dart';
+import 'home/attendance/my_approvals/my_approvals.dart';
+import 'home/attendance/my_attendance/my_attendance.dart';
+import 'home/attendance/on_duty/on_duty_screen.dart';
+import 'home/attendance/permission/permission.dart';
+import 'home/attendance/profile/profile_screen.dart';
+import 'home/attendance/shift_change/shift_change.dart';
+import 'home/attendance/team_attendance/team_attendance_screen.dart';
+import 'home/home_bloc.dart';
+import 'widgets/page_transition.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
 
 class AttendanceScreen extends StatefulWidget {
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();

@@ -1,5 +1,9 @@
-import 'package:atrak/src/home/home.dart';
+// import 'package:atrak/src/home/home.dart';
+// import 'package:bloc/bloc.dart';
+
+import 'home/home.dart';
 import 'package:bloc/bloc.dart';
+
 
 class HomeBloc extends Bloc<HomeEvent, HomeState> {
   void showHome() {

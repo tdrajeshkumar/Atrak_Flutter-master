@@ -1,8 +1,16 @@
-import 'package:atrak/src/home/attendance/attendance_screen.dart';
-import 'package:atrak/src/home/home.dart';
-import 'package:atrak/src/home/home_bloc.dart';
-import 'package:atrak/src/home/home_page/page_home_screen.dart';
-import 'package:atrak/src/widgets/page_transition.dart';
+// import 'package:atrak/src/home/attendance/attendance_screen.dart';
+// import 'package:atrak/src/home/home.dart';
+// import 'package:atrak/src/home/home_bloc.dart';
+// import 'package:atrak/src/home/home_page/page_home_screen.dart';
+// import 'package:atrak/src/widgets/page_transition.dart';
+// import 'package:flutter/material.dart';
+// import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'home/attendance/attendance_screen.dart';
+import 'home/home.dart';
+import 'home/home_bloc.dart';
+import 'home/home_page/page_home_screen.dart';
+import 'widgets/page_transition.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
